@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	margin:0;
+	font-family:Tahoma, Geneva, sans-serif;
+}
+#header
+{
+	background-color:#393131;
+	height:30px;
+	width:100%;
+	border-bottom:10px thick #588206;
+	background-position:top;
+	
+}
+
+a
+{
+	text-decoration:none;
+	color:#f7f4f4;
+}
+.bigwidth
+{
+	width:100%;
+	margin:0 auto 0 auto;
+}
+#big
+{
+	background-color:#90F;
+	height:44px;
+	width:1370px;
+	margin: 150px 0px 0 0;
+}
+#header .bigwidth a
+{
+	font-size:40px;
+	letter-spacing:4px;
+ display:block;	
+}
+
+#header .bigwidth 
+{
+	padding:5 0 0 0;
+	margin:5px 5px 0 0;
+	
+}
+#header .bigwidth a span 
+{
+	color:#F4FB0B;
+}
+#header .bigwidth span 
+{
+color:gray;
+}
+#header ul
+{
+	list-style-type:none;
+	float:right;
+	margin:10px 0 0 0;
+}
+#header ul li
+{
+	display:inline-block;
+	margin:0 auto;
+}
+#header .bigwidth ul li a
+{
+ font-size:14px;
+ background:#6F6D6D;
+ color:#F8F0F1;
+ padding:7px 30px;
+ border-radius:10px 10px 0 0;
+ letter-spacing:0;
+}
+
+#first_tab
+{
+	background-color:#A3DB10 !important;
+}
+.pic1
+{
+width:1370px;
+	height:300px;
+
+}
+
+#col_right{
+	float:right;
+	width:230px;
+	height:230px;
+	padding:30px;
+}
+#col_left{
+	width:200px;
+	height:100%;
+}
+.heyat
+{
+	padding:10px  30px 30px  30px;
+	float:right;
+	background:bottom none #F6C;
+	border-radius:20px;
+	margin:25px 10px 35px 60%;
+}
+.btm
+{
+	background:#E48821;
+	color:rgba(23,247,229,1.00);
+	width:60px;
+	height:30px;
+	border-radius:10px;
+}
+.darbarema
+{
+	padding:5px  30px 30px  30px;
+	float:right;
+	background:bottom none #F6C;
+	border-radius:10px;
+	margin:20px 0px 0px 1000px;
+}
+   
+   .message
+{
+	padding:8px  30px 8px 30px;
+	float:right;
+	background:bottom none #F6C;
+	border-radius:10px;
+	margin:5px 30px 15px 30px;
+}    
+.roz
+{
+	padding:7px  20px 10px  20px;
+	background:bottom none #F6C;
+	border-radius:10px;
+	margin:100px 40px 100px 20px;
+	width: 10px;
+
+}
+.text
+{
+	width:150px;
+	height:5px;
+	border-radius:10px;
+	margin:8px 5px;
+	padding:10px 10px;
+}
+
+@font-face{font-family:'FontAwesome';src:url('../font/fontawesome-webfont.eot?v=3.2.1');src:url('../font/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'),url('../font/fontawesome-webfont.woff?v=3.2.1') format('woff'),url('../font/fontawesome-webfont.ttf?v=3.2.1') format('truetype'),url('../font/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg');font-weight:normal;font-style:normal;}[class^="icon-"],[class*=" icon-"]{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;}
+[class^="icon-"]:before,[class*=" icon-"]:before{text-decoration:inherit;display:inline-block;speak:none;}
+ .icon-phone:before{content:"\f095";}
+	 .icon-envelope-alt:before{content:"\f003";}
+
+.icon-user:before{content:"\f007";}
+ .icon-envelope:before{content:"\f0e0";}
